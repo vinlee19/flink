@@ -43,6 +43,7 @@ public class CalciteParser {
     }
 
     /**
+     * Parse SQL Statement
      * Parses a SQL statement into a {@link SqlNode}. The {@link SqlNode} is not yet validated.
      *
      * @param sql a sql string to parse

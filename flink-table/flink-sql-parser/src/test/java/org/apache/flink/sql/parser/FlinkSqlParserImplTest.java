@@ -41,7 +41,10 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.assertj.core.api.Assertions.fail;
 import static org.junit.jupiter.api.parallel.ExecutionMode.CONCURRENT;
 
-/** FlinkSqlParserImpl tests. * */
+/** FlinkSqlParserImpl tests.
+ * debug Flink SQL入口
+ *
+ * * */
 @Execution(CONCURRENT)
 class FlinkSqlParserImplTest extends SqlParserTest {
 
